@@ -15,9 +15,17 @@ class ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        redViewController.layer.cornerRadius = 140 / 2
+        redViewController.alpha = 0.3
+        yellowViewController.layer.cornerRadius = 140 / 2
+        yellowViewController.alpha = 0.3
+        greenViewController.layer.cornerRadius = 140 / 2
+        greenViewController.alpha = 0.3
+        
     }
-
+    
+    @IBAction func startPressed() {
+    }
 
 }
 
