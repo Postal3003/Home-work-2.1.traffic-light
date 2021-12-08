@@ -8,7 +8,11 @@
 import UIKit
 
 class ViewController: UIViewController {
-
+    @IBOutlet weak var redViewController: UIView!
+    @IBOutlet weak var yellowViewController: UIView!
+    @IBOutlet weak var greenViewController: UIView!
+    @IBOutlet weak var startButton: UIButton!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.

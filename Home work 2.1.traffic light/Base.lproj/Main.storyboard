@@ -73,10 +73,16 @@
                             <constraint firstItem="fYw-J6-Oqy" firstAttribute="leading" secondItem="u6Z-NH-21B" secondAttribute="leading" id="yTg-sm-j1v"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="greenViewController" destination="djY-xO-SiN" id="ncD-xi-Kmk"/>
+                        <outlet property="redViewController" destination="fYw-J6-Oqy" id="qp3-c9-zHc"/>
+                        <outlet property="startButton" destination="u6Z-NH-21B" id="M03-nT-GKf"/>
+                        <outlet property="yellowViewController" destination="zZE-0X-LwY" id="Pg8-Ds-trf"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="131.8840579710145" y="109.82142857142857"/>
+            <point key="canvasLocation" x="10" y="-56"/>
         </scene>
     </scenes>
     <resources>
